@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_CA_API_REST</CLSNAME>
+    <LANGU>S</LANGU>
+    <DESCRIPT>CA - API Rest Definition</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>CALL_SERVICE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Call service</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CONNECT</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>connect with API</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Create instance of api</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>LOAD_CONFIGURATION</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>load the API config</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_API_ID</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>CA - API intern ID</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>CALL_SERVICE</CMPNAME>
+     <SCONAME>IV_ENDPOINT_ID</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>CA - APIs Endpoints ID</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CALL_SERVICE</CMPNAME>
+     <SCONAME>IV_SERVICE_ID</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>CA - API Endpoint Services ID</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>IV_API_ID</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>CA - API intern ID</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>IV_AUTO_CONNECTION</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Variable booleana (X=verdadero, espacio=falso)</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

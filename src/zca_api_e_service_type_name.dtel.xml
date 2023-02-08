@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZCA_API_E_SERVICE_TYPE_NAME</ROLLNAME>
+    <DDLANGUAGE>S</DDLANGUAGE>
+    <DOMNAME>ZCA_API_D_SERVICE_TYPE_NAME</DOMNAME>
+    <HEADLEN>55</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>CA - HTTP Operation Name</DDTEXT>
+    <REPTEXT>HTTP Name</REPTEXT>
+    <SCRTEXT_S>HTTP Name</SCRTEXT_S>
+    <SCRTEXT_M>HTTP Name</SCRTEXT_M>
+    <SCRTEXT_L>HTTP Name</SCRTEXT_L>
+    <DTELMASTER>S</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

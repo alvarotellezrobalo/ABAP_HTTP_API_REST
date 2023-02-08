@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_VIEW" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD25V>
+    <VIEWNAME>ZCA_API_V001</VIEWNAME>
+    <AS4LOCAL>A</AS4LOCAL>
+    <DDLANGUAGE>S</DDLANGUAGE>
+    <AGGTYPE>V</AGGTYPE>
+    <ROOTTAB>ZCA_API_T001</ROOTTAB>
+    <DDTEXT>CA - APIs Definition</DDTEXT>
+    <VIEWCLASS>C</VIEWCLASS>
+    <CUSTOMAUTH>A</CUSTOMAUTH>
+    <GLOBALFLAG>X</GLOBALFLAG>
+   </DD25V>
+   <DD26V_TABLE>
+    <DD26V>
+     <VIEWNAME>ZCA_API_V001</VIEWNAME>
+     <TABNAME>ZCA_API_T001</TABNAME>
+     <TABPOS>0001</TABPOS>
+     <FORTABNAME>ZCA_API_T001</FORTABNAME>
+    </DD26V>
+   </DD26V_TABLE>
+   <DD27P_TABLE>
+    <DD27P>
+     <VIEWFIELD>MANDT</VIEWFIELD>
+     <TABNAME>ZCA_API_T001</TABNAME>
+     <FIELDNAME>MANDT</FIELDNAME>
+     <KEYFLAG>X</KEYFLAG>
+    </DD27P>
+    <DD27P>
+     <VIEWFIELD>API_ID</VIEWFIELD>
+     <TABNAME>ZCA_API_T001</TABNAME>
+     <FIELDNAME>API_ID</FIELDNAME>
+     <KEYFLAG>X</KEYFLAG>
+    </DD27P>
+    <DD27P>
+     <VIEWFIELD>NAME</VIEWFIELD>
+     <TABNAME>ZCA_API_T001</TABNAME>
+     <FIELDNAME>NAME</FIELDNAME>
+    </DD27P>
+    <DD27P>
+     <VIEWFIELD>BASE_URL</VIEWFIELD>
+     <TABNAME>ZCA_API_T001</TABNAME>
+     <FIELDNAME>BASE_URL</FIELDNAME>
+    </DD27P>
+   </DD27P_TABLE>
+  </asx:values>
+ </asx:abap>
+</abapGit>
